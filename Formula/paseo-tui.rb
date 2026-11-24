@@ -2,28 +2,28 @@
 class PaseoTui < Formula
   desc "Keyboard-first terminal client for Paseo coding agents"
   homepage "https://github.com/emielvangoor/paseo-tui"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.3.0/paseo-tui_darwin_arm64.tar.gz"
-      sha256 "a879cb37eb8c71be7f239c9a4cd8f40d565341d908fa1cf28f0331e1165448c9"
+      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.4.0/paseo-tui_darwin_arm64.tar.gz"
+      sha256 "275c44d6deea51c6fc5006da2978283959a17ec64d223e6be9a39c2695af6df5"
     end
     on_intel do
-      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.3.0/paseo-tui_darwin_amd64.tar.gz"
-      sha256 "ec2907e86d538516a007c46fc47dc6c4c90b64db67fa323642b54a96fbb41fdd"
+      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.4.0/paseo-tui_darwin_amd64.tar.gz"
+      sha256 "46bb326364216348aded13d076217f792636a3b4873c90244979780399a80fd8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.3.0/paseo-tui_linux_arm64.tar.gz"
-      sha256 "e066772eb14e7e7becca8032b5b80e222dd8100132c7ebf89f4e0abe3bf93ca7"
+      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.4.0/paseo-tui_linux_arm64.tar.gz"
+      sha256 "bc9b67ad4d432cabe8bb3e01905f919c3588450a0eec223543c814d25094c06c"
     end
     on_intel do
-      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.3.0/paseo-tui_linux_amd64.tar.gz"
-      sha256 "719a8ec9108c0afcfbbb9a0160c8d63e6d96cac71e17ad6923ddaa1154fc3903"
+      url "https://github.com/emielvangoor/paseo-tui/releases/download/v0.4.0/paseo-tui_linux_amd64.tar.gz"
+      sha256 "dd496c13263a36915f8092d9aa9177cc70aba6e19cdae60f1559acad70697eeb"
     end
   end
 
